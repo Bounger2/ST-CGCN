@@ -16,3 +16,9 @@ Author: Yinxin Bao, Jiashuang Huang, Qinqin Shen, et al.
  ## Example Dataset
  PeMS03,PeMS04,PeMS07,PeMS08 and SZ-taxi (flow, speed, occupancy, weather)
 
+  # Model
+  nets/ST-CGCN-main.py
+  
+  This code mainly shows the fusion process of the complex correlation matrix.
+  
+  Welcome to learn and put forward suggestions.

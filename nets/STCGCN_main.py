@@ -174,7 +174,7 @@ def model_test(item,AC_martix, AD_martix):
 
 if __name__=='__main__':
     #Model Initialization
-    BATCH_SIZE = 30
+    BATCH_SIZE = 10
     SEQ_SIZE = 8  # Input Dimension
     OUT_SIZE = 1  #Output Dimension
     learning_rate = 0.0001  # Learning rate

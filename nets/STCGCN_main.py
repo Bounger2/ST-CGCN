@@ -198,8 +198,7 @@ if __name__=='__main__':
     AC_martix=AC_martix.values
     AD_martix=pd.read_csv('../data/data_martix/'+data_kind[data_index]+'['+str(data_id)+']'+'/data_dist.csv',header=0,index_col=0)
     AD_martix=AD_martix.values
-    AD_martix1=1/np.exp(AD_martix)
-    AD_martix0=AD_martix1
+    AD_martix0=AD_martix
     AD_martix=normalize(torch.FloatTensor(AD_martix0).to(device), True) #Regularization
     AC_martix=normalize(torch.FloatTensor(AC_martix).to(device), True)
     data_wea=pd.read_csv('../data/data_martix/'+data_kind[data_index]+'['+str(data_id)+']'+'/data_wea.csv',header=0,index_col=0).values

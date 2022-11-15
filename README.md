@@ -1,7 +1,7 @@
 # ST-CGCN-PyTorch
 Display of data sets and core code in STCGCN
 Paper: Spatial-Temporal Complex Graph Convolution Network for Traffic Flow Prediction
-Author: Yinxin Bao, Jiashuang Huang, Qinqin Shen, et al.
+Author: YX Bao, JS Huang, QQ Shen, et al.
   
  # Requirements
   

@@ -107,6 +107,12 @@ class STCGCN_Net(nn.Module):
         )
         self.fc4 = nn.Linear(8, 4, bias=True)
         self.fc5 = nn.Linear(4, 1, bias=True)
+        #spatial
+        self.spatial=net1 #Replace with your spatial feature extraction module
+        #temporal
+        self.temporal=net2 #Replace with your temporal feature extraction module
+        self.fc6 = nn.Linear(Nodes_num, Nodes_num, bias=True)
+        self.fc7 = nn.Linear(Nodes_num, Nodes_num, bias=True)
 
     def forward(self,X,X1,AC,AD,AW):
         Batch=X.shape[0]

@@ -12,6 +12,7 @@ Author: YX Bao, JS Huang, QQ Shen, et al.
   * numpy
   * time
   * os
+  * et al.
   
  ## Example Dataset
  PeMS03,PeMS04,PeMS07,PeMS08 and SZ-taxi (flow, speed, occupancy, weather)
